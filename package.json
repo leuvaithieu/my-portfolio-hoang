@@ -15,6 +15,7 @@
     "@tippyjs/react": "^4.2.6",
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
+    "gh-pages": "^5.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -33,9 +34,11 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build --output public",
+    "build": "react-app-rewired build ",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -67,5 +70,5 @@
   "bugs": {
     "url": "https://github.com/leuvaithieu/my-portfolio-hoang/issues"
   },
-  "homepage": "https://github.com/leuvaithieu/my-portfolio-hoang#readme"
+  "homepage": "https://leuvaithieu.github.io/my-portfolio-hoang"
 }
