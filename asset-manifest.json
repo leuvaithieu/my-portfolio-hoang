@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/leuvaithieu/my-portfolio-hoang/static/css/main.9b652c3f.css",
-    "main.js": "/leuvaithieu/my-portfolio-hoang/static/js/main.b7ba9687.js",
-    "static/js/787.aa23b513.chunk.js": "/leuvaithieu/my-portfolio-hoang/static/js/787.aa23b513.chunk.js",
-    "static/media/bannerBgImageLight.jpeg": "/leuvaithieu/my-portfolio-hoang/static/media/bannerBgImageLight.2539496edfde4ef41217.jpeg",
-    "static/media/portfolio-1.JPG": "/leuvaithieu/my-portfolio-hoang/static/media/portfolio-1.edfae21819001eb624bb.JPG",
-    "static/media/portfolio-2.JPG": "/leuvaithieu/my-portfolio-hoang/static/media/portfolio-2.22ead54aa986e6a45466.JPG",
-    "static/media/intro-white.webp": "/leuvaithieu/my-portfolio-hoang/static/media/intro-white.532772bd1b89f43eca1b.webp",
-    "static/media/avatar.png": "/leuvaithieu/my-portfolio-hoang/static/media/avatar.d861376fbf3aacf40279.png",
-    "static/media/side-effect5.webp": "/leuvaithieu/my-portfolio-hoang/static/media/side-effect5.79b3d62ce0a6c80ba471.webp",
-    "static/media/side-effect6.webp": "/leuvaithieu/my-portfolio-hoang/static/media/side-effect6.e3d10e63cb2b8d786d38.webp",
-    "static/media/side-effect3.webp": "/leuvaithieu/my-portfolio-hoang/static/media/side-effect3.93e304d37fa524c50c69.webp",
-    "static/media/side-effect1.webp": "/leuvaithieu/my-portfolio-hoang/static/media/side-effect1.3da26d12a29c733a1fdd.webp",
-    "static/media/logo.svg": "/leuvaithieu/my-portfolio-hoang/static/media/logo.90e98955116f44690a6ed7f722383ed9.svg",
-    "static/media/react.svg": "/leuvaithieu/my-portfolio-hoang/static/media/react.c60e072461a29d9c38291223075ac016.svg",
-    "static/media/boostrap.svg": "/leuvaithieu/my-portfolio-hoang/static/media/boostrap.53cd3aa8f35ff7df545aed9959d48212.svg",
-    "index.html": "/leuvaithieu/my-portfolio-hoang/index.html",
-    "static/media/javascript.svg": "/leuvaithieu/my-portfolio-hoang/static/media/javascript.8e003be228681dc81bbf6fc9803c9c2b.svg",
-    "static/media/html5.svg": "/leuvaithieu/my-portfolio-hoang/static/media/html5.42c02db687dba9b4821fbac5c65e5296.svg",
-    "static/media/css3.svg": "/leuvaithieu/my-portfolio-hoang/static/media/css3.bbf0b60508efac0bda4fbb5593f4337f.svg",
-    "main.9b652c3f.css.map": "/leuvaithieu/my-portfolio-hoang/static/css/main.9b652c3f.css.map",
-    "main.b7ba9687.js.map": "/leuvaithieu/my-portfolio-hoang/static/js/main.b7ba9687.js.map",
-    "787.aa23b513.chunk.js.map": "/leuvaithieu/my-portfolio-hoang/static/js/787.aa23b513.chunk.js.map"
+    "main.css": "/my-portfolio-hoang/static/css/main.9b652c3f.css",
+    "main.js": "/my-portfolio-hoang/static/js/main.62d90559.js",
+    "static/js/787.aa23b513.chunk.js": "/my-portfolio-hoang/static/js/787.aa23b513.chunk.js",
+    "static/media/bannerBgImageLight.jpeg": "/my-portfolio-hoang/static/media/bannerBgImageLight.2539496edfde4ef41217.jpeg",
+    "static/media/portfolio-1.JPG": "/my-portfolio-hoang/static/media/portfolio-1.edfae21819001eb624bb.JPG",
+    "static/media/portfolio-2.JPG": "/my-portfolio-hoang/static/media/portfolio-2.22ead54aa986e6a45466.JPG",
+    "static/media/intro-white.webp": "/my-portfolio-hoang/static/media/intro-white.532772bd1b89f43eca1b.webp",
+    "static/media/avatar.png": "/my-portfolio-hoang/static/media/avatar.d861376fbf3aacf40279.png",
+    "static/media/side-effect5.webp": "/my-portfolio-hoang/static/media/side-effect5.79b3d62ce0a6c80ba471.webp",
+    "static/media/side-effect6.webp": "/my-portfolio-hoang/static/media/side-effect6.e3d10e63cb2b8d786d38.webp",
+    "static/media/side-effect3.webp": "/my-portfolio-hoang/static/media/side-effect3.93e304d37fa524c50c69.webp",
+    "static/media/side-effect1.webp": "/my-portfolio-hoang/static/media/side-effect1.3da26d12a29c733a1fdd.webp",
+    "static/media/logo.svg": "/my-portfolio-hoang/static/media/logo.90e98955116f44690a6ed7f722383ed9.svg",
+    "static/media/react.svg": "/my-portfolio-hoang/static/media/react.c60e072461a29d9c38291223075ac016.svg",
+    "static/media/boostrap.svg": "/my-portfolio-hoang/static/media/boostrap.53cd3aa8f35ff7df545aed9959d48212.svg",
+    "index.html": "/my-portfolio-hoang/index.html",
+    "static/media/javascript.svg": "/my-portfolio-hoang/static/media/javascript.8e003be228681dc81bbf6fc9803c9c2b.svg",
+    "static/media/html5.svg": "/my-portfolio-hoang/static/media/html5.42c02db687dba9b4821fbac5c65e5296.svg",
+    "static/media/css3.svg": "/my-portfolio-hoang/static/media/css3.bbf0b60508efac0bda4fbb5593f4337f.svg",
+    "main.9b652c3f.css.map": "/my-portfolio-hoang/static/css/main.9b652c3f.css.map",
+    "main.62d90559.js.map": "/my-portfolio-hoang/static/js/main.62d90559.js.map",
+    "787.aa23b513.chunk.js.map": "/my-portfolio-hoang/static/js/787.aa23b513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b652c3f.css",
-    "static/js/main.b7ba9687.js"
+    "static/js/main.62d90559.js"
   ]
 }
