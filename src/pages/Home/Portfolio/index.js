@@ -8,7 +8,7 @@ const cx = classNames.bind(styles)
 function Portfolio() {
     return <div className={cx('container', 'relative','portfolio','m-auto')}>
     <div className={cx('absolute','top-5','left-0')}>
-        <img src ={bgImg3} />
+        <img src ={bgImg3} alt="bgImg3"/>
     </div>
     <div className={cx('text-center','max-w-[550px]', 'mx-auto')}>
         <div className={cx('title',' mb-6')}>

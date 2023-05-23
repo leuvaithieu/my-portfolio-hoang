@@ -1,3 +1,3 @@
 [build]
-  command = "npm build" # (hoặc lệnh xây dựng tương tự của bạn)
+  command = "npm run build" # (hoặc lệnh xây dựng tương tự của bạn)
   environment = { CI = "false" }
