@@ -1,6 +1,5 @@
 import React from "react";
 import SkillCardList from './SkillCartList';
-import classNames from "classnames";
 import bgSkillsOne from '~/assets/images/side-effect5.webp'
 import bgSkillsSecond from '~/assets/images/side-effect6.webp'
 
