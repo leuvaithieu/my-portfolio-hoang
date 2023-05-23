@@ -2,9 +2,6 @@ import classNames from 'classnames/bind';
 import styles from '../Home.module.scss';
 
 import bgImg3 from '~/assets/images/side-effect3.webp'
-import intro from '~/assets/images/intro-white.webp'
-import portfolioOne from '~/assets/images/portfolio-1.JPG'
-import portfolioSecond from '~/assets/images/portfolio-2.JPG'
 import  ProductList from './ProjectList'
 
 const cx = classNames.bind(styles)
