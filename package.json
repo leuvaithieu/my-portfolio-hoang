@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio-hoang",
+  "homepage": "https://leuvaithieu.github.io/my-portfolio-hoang",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -70,6 +71,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leuvaithieu/my-portfolio-hoang/issues"
-  },
-  "homepage": "https://leuvaithieu.github.io/my-portfolio-hoang"
+  }
+  
 }

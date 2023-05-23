@@ -1,7 +1,7 @@
 import classNames from "classnames/bind";
 import styles from './Home.module.scss'
 import bg from "~/assets/images/bannerBgImageLight.jpeg";
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import TypingEffect from "~/components/TypingEffect";
 import avatar from '~/assets/images/avatar.png';
 import react from '~/assets/images/react.svg'
@@ -12,13 +12,15 @@ import bootstrap from '~/assets/images/boostrap.svg'
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Skills from "./Skill";
+import TimeLine from "./Experience";
+import Contact from "./Contact";
 
 
 
 
 const cx = classNames.bind(styles)
 function Home() {
-    return <div className={cx('wrapper','px-4')}>
+    return <div className={cx('wrapper')}>
         <div className={cx('container-banner')} style = {{backgroundImage:`url(${bg})`, backgroundRepeat:'no-repeat', backgroundPosition:'center center', backgroundSize:'cover', height:'700px'}}>
             <div className={cx('container-left')}>
                 <div className={cx('info')}>
@@ -51,11 +53,14 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className={cx('main-content','m-auto')}>
+        <div className={cx('main-content','m-auto','px-4')}>
             <About/>
             <Portfolio/>
             <Skills/>
+            <TimeLine/>
+            <Contact/>
         </div>
+        
     </div>
     
 }

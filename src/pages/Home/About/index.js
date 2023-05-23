@@ -5,10 +5,12 @@ import bgImg from '~/assets/images/side-effect1.webp'
 import intro from '~/assets/images/intro-white.webp'
 
 const cx = classNames.bind(styles)
+
+
 function About() {
     return <div className={cx('container', 'relative','about','m-auto')}>
     <div className={cx('absolute','top-5','left-0')}>
-        <img src ={bgImg} ></img>
+        <img src ={bgImg} alt='img'/>
     </div>
     <div className="grid gap-10 lg:grid-cols-2">
         <div className={cx('left')}>
@@ -33,3 +35,4 @@ function About() {
 }
 
 export default About;
+

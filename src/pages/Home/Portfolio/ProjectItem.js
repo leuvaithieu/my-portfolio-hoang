@@ -3,7 +3,6 @@ import SlideShow from "~/components/SlieShow";
 import DialogComponent from "~/components/Dialog";
 import Tilt from "react-parallax-tilt";
 import { useBreakpoints } from "~/Hooks/useBreakPoint";
-import portfolioSecond from '~/assets/images/portfolio-2.JPG'
 
 const ProjectItem = (props) => {
   const {
@@ -14,6 +13,7 @@ const ProjectItem = (props) => {
     sliders,
     isRevertDisplay,
     skills,
+    href
   } = props;
   const [isOpenDialog, setIsOpenDialog] = useState(false);
   const { isLg, isMd } = useBreakpoints();
@@ -27,6 +27,8 @@ const ProjectItem = (props) => {
     <>
       <div className={`grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 `}>
         <a
+          href = {href}
+          target="_blank"
           onClick={onOpenDialog}
           className={`relative ${
             isRevertDisplay ? "lg:order-2" : ""
@@ -36,7 +38,7 @@ const ProjectItem = (props) => {
             <Tilt>
               <img
                 className="z-[1] border-shadow rounded-lg"
-                src={portfolioSecond}
+                src={image}
                 width={650}
                 height={315}
                 alt="product"
@@ -47,7 +49,7 @@ const ProjectItem = (props) => {
             <img
               className="z-[1] border-shadow rounded-lg"
               src={image}
-              width={650}
+              width={650} 
               height={315}
               alt="product"
               style={{ width: "100%" }}

@@ -1,36 +1,37 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import portfolioSecond from '~/assets/images/portfolio-2.JPG'
+import portfolioOne from '~/assets/images/portfolio-1.JPG'
 
 const projectPreview = [
-  {
-    image: "/images/project-preview1.png",
-    title: "MSB Design system",
+  { 
+    href:"https://btngroup.vn/",
+    image: `${portfolioOne}`,
+    title: "BTN GROUP Design system",
     subTitle: "WEB DEVELOPMENT",
     description: (
       <div>
         <section className="markdown">
-          Following the MSB Design specification, we developed a React UI
-          library <code>antd-msb</code> that contains a set of high quality
-          components and demos for building rich, interactive user interfaces.
+          According to BTN GROUP Design specifications, we have implemented high quality demo to build interactive user interface.
         </section>
         <h2
-          id="✨-Features"
+          id="Features"
           className="dark:text-white text-xl py-3 text-gray-800"
         >
-          <span>✨ Features</span>
+          <span>Features</span>
         </h2>
         <ul className="led leading-5 ">
           <li className="py-1 lg:py-2 truncate">
-            🌈 Enterprise-class UI designed for web applications.
+             Enterprise-class UI designed for web applications.
           </li>
           <li className="py-1 lg:py-2 truncate">
-            📦 A set of high-quality React components out of the box.
+             A set of high-quality React components out of the box.
           </li>
           <li className="py-1 lg:py-2 truncate">
-            🛡 Written in TypeScript with predictable static types.
+            Written in TypeScript with predictable static types.
           </li>
           <li className="py-1 lg:py-2 truncate">
-            🎨 Powerful theme customization in every detail.
+             Powerful theme customization in every detail.
           </li>
         </ul>
       </div>
@@ -43,19 +44,18 @@ const projectPreview = [
       "/images/project-preview1.3.png",
       "/images/project-preview1.4.png",
     ],
-    skills: ["ReactJS", "Antd", "Javascript", "Java", "TypeScript"],
+    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS"],
   },
   {
-    image: "/images/project-preview2.1.png",
-    title: "MSB Design system for mobile",
-    subTitle: "MOBILE DEVELOPMENT",
+    href :"https://piaggiocongthanh.vn/",
+    image: `${portfolioSecond}`,
+    title: "Piaggio Công Thành",
+    subTitle: "WEB AND MOBILE DEVELOPMENT",
     description: (
       <div>
         <h1>MSB Design of Flutter</h1>
         <section className="markdown">
-          Another version of MSB Design system for mobile app, we developed a
-          Flutter UI library that contains a set of high quality components
-          and demos for building rich, interactive user interfaces.
+          Based on the design of successful Piaggo's sales website, we implement user interface for website and mobile.
         </section>
       </div>
     ),
@@ -65,7 +65,7 @@ const projectPreview = [
       "/images/project-preview2.3.png",
       "/images/project-preview2.4.png",
     ],
-    skills: ["Flutter", "Dart"],
+    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS"],
   }
 ];
 const ProductList = () => {
