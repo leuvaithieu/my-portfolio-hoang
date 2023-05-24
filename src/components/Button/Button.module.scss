@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    font-family: Jost,sans-serif;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 40px;
+    ::before{
+        height: 0;
+        position: absolute;
+        content: "";
+        z-index: 0;
+        background-color: var(--primary);
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        transition: all .3s ease;
+    }
+    span{
+        z-index: 2;
+        transition: all .3s ease;
+        font-size: 1.8rem;
+    }
+    
+    &:hover {
+
+    }
+    span{
+        z-index: 2;
+        transition: all .3s ease;
+        font-size: 1.8rem;
+        color: var(--text-color);
+    }
+    
+    &:hover span{
+        color: var(--white);
+    }
+}

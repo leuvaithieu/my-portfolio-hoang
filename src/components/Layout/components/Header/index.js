@@ -30,7 +30,8 @@ function Header() {
     return <header className={cx('wrapper',{'srolled':isCrolled})}>
         <div className={cx('inner', 'd-flex', 'justify-bettween')}>
             <div className={cx('logo')}>
-                <img src={images.logo} alt="Hoàng"></img>
+                {/* <img src={images.logo} alt="Hoàng"/> */}
+                <span></span>
             </div>
             <div className={cx('nav-menu')}>
                 <ul className={cx('nav-list','d-flex' )}>
@@ -66,11 +67,8 @@ function Header() {
                 </ul>
             </div>
             <div className={cx('d-flex', 'group-btn' ,'align-center')}>
-                <div className="light-dark">
-                    <button><span>dark</span></button>
-                </div>
                 <div className="download">
-                    <button><span>download</span></button>
+                    <Button primary download>Download</Button>
                 </div>
             </div>
         </div>

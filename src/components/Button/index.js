@@ -4,8 +4,40 @@ import {Link} from "react-router-dom"
 
 const cx= classNames.bind(styles)
 
-function Button() {
-    return <button className={cx('btn')}></button>;
+function Button({
+    to,
+    href,
+    outline = false,
+    primary = false,
+    download = false,
+    onClick,
+    children,
+    ...passProps
+}) {
+    let Comp = 'button'
+    const props = {
+        onClick,
+        ...passProps
+    }
+    if(to){
+        props.to = to
+        Comp = Link
+    }else if(href){
+        props.href = href
+        Comp = 'a'
+    }
+
+
+    const classes = cx('wrapper','btn',{
+        primary,
+        outline,
+        download
+    })
+    return (
+        <Comp className={classes} {...props}>
+            <span className={cx('title-btn')}>{children}</span>
+        </Comp>
+    );
 }
 
 export default Button;
