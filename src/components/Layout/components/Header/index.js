@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import classNames from "classnames/bind";
-import Tippy from "@tippyjs/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import Tippy from "@tippyjs/react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Button from "~/components/Button";
 import styles from './Header.module.scss'
-import images from "~/assets/images";
+// import images from "~/assets/images";
 
 const cx = classNames.bind(styles);
 
