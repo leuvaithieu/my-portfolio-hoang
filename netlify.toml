@@ -1,3 +1,0 @@
-[build]
-  command = "npm run build" # (hoặc lệnh xây dựng tương tự của bạn)
-  environment = { CI = "false" }
