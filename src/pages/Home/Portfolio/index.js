@@ -6,7 +6,7 @@ import  ProductList from './ProjectList'
 
 const cx = classNames.bind(styles)
 function Portfolio() {
-    return <div className={cx('container', 'relative','portfolio','m-auto')}>
+    return <div className={cx('container', 'relative','portfolio','m-auto')} id='portfolio'>
     <div className={cx('absolute','top-5','left-0')}>
         <img src ={bgImg3} alt="bgImg3"/>
     </div>

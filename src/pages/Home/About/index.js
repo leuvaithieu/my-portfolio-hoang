@@ -8,7 +8,7 @@ const cx = classNames.bind(styles)
 
 
 function About() {
-    return <div className={cx('container', 'relative','about','m-auto')}>
+    return <div className={cx('container', 'relative','about','m-auto')} id='about'>
     <div className={cx('absolute','top-5','left-0')}>
         <img src ={bgImg} alt='img'/>
     </div>

@@ -1,5 +1,6 @@
 .container-banner{
     display: flex;
+    height: 700px;
 }
 .info{
     padding:10rem 2rem 2rem 2rem;
@@ -69,3 +70,71 @@
         transform: translateY(20px)
     }
 }
+
+
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+
+@media(max-width: $mobile-width ) {     
+    .container-banner{
+        height: auto;
+        flex-direction: column;
+    }
+    .container-left{
+        width: 100%;
+        order: 2;
+    }
+    .container-right{
+        width: 100%;
+        padding-top: 5rem;
+        order: 1;
+    }
+    .avtar{
+        .images{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: auto !important;
+            }
+            .skill-1{
+                top: 2rem;
+                left: 2rem;
+            }
+            .skill-2{
+                top: 6rem;
+                right: 3rem;
+            }
+            .skill-3{
+                bottom: 5rem;
+                left: 3rem;
+                background-color: var(--white);
+            }
+            .skill-4{
+                bottom: 5rem;
+                right: 5rem;
+            }
+        }
+    }
+    .about{
+        padding-top: 11rem;
+        .top-5{
+            top: 0;
+        }
+        .title{
+            span{
+                color: var(--primary);
+                font-size: 20px;
+            }
+            h3{
+                font-size: 30px;
+            }
+            .text{
+                --tw-text-opacity: 1;
+                color: rgb(75 85 99/var(--tw-text-opacity));
+                margin-bottom: 2.25rem;
+            }
+        }
+    }
+} 

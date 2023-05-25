@@ -21,7 +21,7 @@ import Contact from "./Contact";
 const cx = classNames.bind(styles)
 function Home() {
     return <div className={cx('wrapper')}>
-        <div className={cx('container-banner')} style = {{backgroundImage:`url(${bg})`, backgroundRepeat:'no-repeat', backgroundPosition:'center center', backgroundSize:'cover', height:'700px'}}>
+        <div className={cx('container-banner')} style = {{backgroundImage:`url(${bg})`, backgroundRepeat:'no-repeat', backgroundPosition:'center center', backgroundSize:'cover'}}>
             <div className={cx('container-left')}>
                 <div className={cx('info')}>
                     <div className={cx('sub-title-info')}>
