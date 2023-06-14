@@ -53,7 +53,7 @@ const projectPreview = [
     subTitle: "WEB AND MOBILE DEVELOPMENT",
     description: (
       <div>
-        <h1>MSB Design of Flutter</h1>
+        <h1>Piaggio</h1>
         <section className="markdown">
           Based on the design of successful Piaggo's sales website, we implement user interface for website and mobile.
         </section>

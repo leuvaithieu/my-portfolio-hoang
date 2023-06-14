@@ -4,6 +4,7 @@ import bg from "~/assets/images/bannerBgImageLight.jpeg";
 // import React, { useState, useEffect } from "react";
 import TypingEffect from "~/components/TypingEffect";
 import avatar from '~/assets/images/avatar.png';
+import avatar1 from '~/assets/images/avatar.jpg';
 import react from '~/assets/images/react.svg'
 import html from '~/assets/images/html5.svg'
 import css from '~/assets/images/css3.svg'
@@ -37,6 +38,7 @@ function Home() {
                 <div className={cx('avtar')}>
                     <div className={cx('images', 'relative')}>
                         <img height="500px" src={avatar} alt="avatar"/>
+                        <img height="500px" className={cx('none')} src={avatar1} alt="avatar"/>
                         <span className={cx('skills','skill-1','absolute','anim_moveBottom')}>
                             <img src={react} alt = "react"/>
                         </span>

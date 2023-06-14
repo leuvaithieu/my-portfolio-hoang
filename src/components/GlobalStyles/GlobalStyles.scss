@@ -559,7 +559,9 @@ img{
     opacity: 0;
     height: 100% !important;
 }
-  
+.none{
+    display: none;
+}
 .preloaded:after,
 .preloaded:before {
     -webkit-animation: preloadedzero 0.3s ease-in-out 0.5s forwards;
