@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import classNames from "classnames/bind";
-// import Tippy from "@tippyjs/react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Tippy from "@tippyjs/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Button from "~/components/Button";
 import styles from './Header.module.scss'
-// import images from "~/assets/images";
+import images from "~/assets/images";
 import NavMobile from './NavMobile'
 
 const cx = classNames.bind(styles);
@@ -68,7 +68,7 @@ function Header() {
         <div className={cx('inner', 'd-flex', 'justify-bettween')}>
             <div className={cx('logo')}>
                 {/* <img src={images.logo} alt="Hoàng"/> */}
-                <span></span>
+                <span>PORTFOILIO</span>
             </div>
             <nav
                 aria-label="Site Nav"

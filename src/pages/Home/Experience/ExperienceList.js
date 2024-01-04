@@ -6,8 +6,8 @@ const experiencesData = [
   {
     title: "Bien Vang International Investment Company Limited (Bivaco)",
     role: "Front End",
-    timeLine: "JULY 21 -  DEC 2022",
-    durations: "July 2021 - December 2022",
+    timeLine: "JULY 2020 -  SEP 2022",
+    durations: "JULY 2020 -  SEP 2022",
     descriptions: (
       <>
         <ul className="list-disc ml-3">

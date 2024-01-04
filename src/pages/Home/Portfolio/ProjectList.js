@@ -44,7 +44,7 @@ const projectPreview = [
       "/images/project-preview1.3.png",
       "/images/project-preview1.4.png",
     ],
-    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS"],
+    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS","JAVASCRIT"],
   },
   {
     href :"https://piaggiocongthanh.vn/",
@@ -65,7 +65,7 @@ const projectPreview = [
       "/images/project-preview2.3.png",
       "/images/project-preview2.4.png",
     ],
-    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS"],
+    skills: ["PHP", "JQUERY", "HTML", "BOOTSTRAP", "CSS","JAVASCRIT"],
   }
 ];
 const ProductList = () => {

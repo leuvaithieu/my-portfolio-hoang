@@ -10,7 +10,7 @@ const experienceItem = (props)=>{
             <div className="cd-timeline-content bg-gray-100 dark:bg-[#333C42]">
                 <h2>{title}</h2>
                 <div className="p-2 rounded flex flex-col lg:flex-row bg-gray-200 dark:bg-gray-600  justify-between text-xs">
-                    <span className="timeline-content-info-title flex items-center gap-1">
+                    <span className="timeline-content-info-title flex items-center gap-1 mb-2">
                         <svg
                             fill="currentColor"
                             width="20px"

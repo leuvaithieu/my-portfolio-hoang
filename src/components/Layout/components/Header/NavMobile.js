@@ -15,6 +15,7 @@ const NavMobile = (props) => {
           <div className="absolute bg-slate-100 dark:bg-slate-900 h-full w-[80%] flex  flex-col justify-between z-[1]">
               <div className="px-4 py-6">
                 <span className="grid h-10 w-32 place-content-center rounded-lg bg-slate-200 dark:bg-gray-600 text-xs text-gray-600">
+                  Portfolio
                 </span>
 
                 <nav aria-label="Main Nav" className="mt-6 flex flex-col space-y-3">

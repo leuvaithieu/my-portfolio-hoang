@@ -54,7 +54,7 @@ const Information = () => {
             <div className="short">
               <h3 className="text-[30px] py-2">Email</h3>
               <span className="text-gray-400 ">
-                <a>Leuvaithieu95@gmail.com</a>
+                <a href="">Leuvaithieu95@gmail.com</a>
               </span>
             </div>
           </div>
@@ -76,7 +76,8 @@ const Information = () => {
             </div>
             <div className="short">
               <h3 className="text-[30px] py-2">Phone</h3>
-              <span className="text-gray-400 ">+84982113878</span>
+              <a href=""> <span className="text-gray-400 ">+84982113878</span></a>
+             
             </div>
           </div>
         </li>
