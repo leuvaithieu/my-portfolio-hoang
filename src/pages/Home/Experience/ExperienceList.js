@@ -19,6 +19,18 @@ const experiencesData = [
             Build websites with Lavalite framework and Laravel
             framework support.      
           </li>
+
+          <li className="mt-2">
+            Doing projects in e-commerce (HTML/CSS/Javascript)
+          </li>
+          <li className="mt-2">
+            Working with different languages (sass/tailwinds/....)
+          </li>
+          <li className="mt-2">
+            Working with Backend (Laravel/Codeigeniter)
+          </li>
+         
+          
         </ul>
       </>
     ),
@@ -27,8 +39,8 @@ const experiencesData = [
   {
     title: "Duy Hung Technology Trading Consulting Joint Stock Company",
     role: "Hardware Engineering , Company Website Management",
-    timeLine: "JAN 20 - JUN 2021",
-    durations: "Jan 2020 - Jun 2021",
+    timeLine: "JAN 20 - JUN 2020",
+    durations: "Jan 2020 - Jun 2020",
     descriptions: (
       <>
         <ul className="list-disc ml-3">
@@ -44,7 +56,7 @@ const experiencesData = [
         </ul>
       </>
     ),
-    skills: ["Php", "Jquery", "Javascript"],
+    skills: [""],
   },
   
 ];

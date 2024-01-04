@@ -89,7 +89,7 @@ function Header() {
             </nav>
             <div className={cx('d-flex', 'group-btn' ,'align-center', 'sm:flex', 'hidden')}>
                 <div className="download">
-                    <Button primary download>Download CV</Button>
+                    <Button isDownloadable filename="my-cv.txt">Download CV</Button>
                 </div> 
             </div>
             <div className="lg:hidden justify-end  items-center gap-4">
